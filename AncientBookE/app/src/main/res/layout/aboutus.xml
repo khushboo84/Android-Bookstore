@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/headerHome"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="About US
+"
+        android:textColor="#FFFFF0"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/btnNextabout"
+        android:layout_width="95dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/nextbutton" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="338dp"
+        android:layout_height="535dp"
+        android:text="WHO WE ARE ....                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               At Ancient BookE, we strive to continuously inspire, inform, and indulge our customers. Exceeding their expectations is our number one priority. That means continually raising the bar, and holding ourselves accountable to the highest standards. "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerHome" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

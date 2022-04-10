@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryActivity">
+
+    <TextView
+        android:id="@+id/txtGenre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="SELECT GENRE"
+        android:textAlignment="center"
+        android:textColor="#612721"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:id="@+id/linearGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtGenre"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        >
+
+        <ImageView
+            android:id="@+id/thriller"
+            android:layout_width="131dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/thri"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/horror"
+            android:layout_width="151dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/hor" />
+
+        <ImageView
+            android:id="@+id/fantasy"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/fantasy" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearGenre2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearGenre"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        >
+
+        <ImageView
+            android:id="@+id/romance"
+            android:layout_width="134dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/rom" />
+
+        <ImageView
+            android:id="@+id/biography"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/bio" />
+
+        <ImageView
+            android:id="@+id/scifi"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/scifi" />
+
+    </LinearLayout>
+
+</RelativeLayout>

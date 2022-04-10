@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1065712626422",
+    "firebase_url": "https://ancientbooke-default-rtdb.firebaseio.com",
+    "project_id": "ancientbooke",
+    "storage_bucket": "ancientbooke.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065712626422:android:a71b00bc45518a897a5ad7",
+        "android_client_info": {
+          "package_name": "com.example.ancientbooke"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065712626422-qt3evit91vjuas6dn4891fmgv0mr4avq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk_fiXOzFVWMviOGV_c2mQjLFw4fP1fRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065712626422-qt3evit91vjuas6dn4891fmgv0mr4avq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

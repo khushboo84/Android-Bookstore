@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/headerHome"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="Payment"
+        android:textColor="#FFFFF0"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="331dp"
+        android:layout_height="169dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerHome"
+        app:srcCompat="@drawable/payment" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="32dp"
+        android:checked="false"
+        android:text="Google Pay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <RadioButton
+        android:id="@+id/Debitcard"
+        android:layout_width="160dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="12dp"
+        android:checked="true"
+        android:text="Debit/Credit Card"
+        app:layout_constraintEnd_toStartOf="@+id/radioButton"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Switch
+        android:id="@+id/subscribe"
+        android:layout_width="326dp"
+        android:layout_height="57dp"
+        android:text="Subscribe me for future updates of latest arrival and discounts."
+        app:layout_constraintBottom_toTopOf="@+id/btnpayment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtemail" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="328dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Card Number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <TextView
+        android:id="@+id/txtdetails"
+        android:layout_width="117dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="20dp"
+        android:text="Card Details: "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Debitcard" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="329dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name on Card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtdetails" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="Card Expiry"
+        app:layout_constraintBottom_toTopOf="@+id/btnpayment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/txtcvc"
+        android:layout_width="168dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="CVC"
+        app:layout_constraintBottom_toTopOf="@+id/btnpayment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.338"
+        app:layout_constraintStart_toEndOf="@+id/editTextDate"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber"
+        app:layout_constraintVertical_bias="0.012" />
+
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_width="326dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email Address"
+        app:layout_constraintBottom_toTopOf="@+id/btnpayment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <TextView
+        android:id="@+id/btnpayment"
+        android:layout_width="176dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ebookbtn"
+        android:text="Pay"
+        android:textAlignment="center"
+        android:textColor="#FFFFF0"
+        android:textIsSelectable="false"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

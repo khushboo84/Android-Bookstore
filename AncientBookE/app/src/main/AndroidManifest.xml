@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ancientbooke">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AncientBookE">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CategoryActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.ancientbooke.CategoryAvtivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".listview"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.ancientbooke.listview" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".displayActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.ancientbooke.displayActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".aboutus"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.ancientbooke.aboutus" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Homepage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.ancientbooke.Homepage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".checkout"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.ancientbooke.checkout" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Payment"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.ancientbooke.Payment" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+
+
+
+
+
+    </application>
+
+</manifest>

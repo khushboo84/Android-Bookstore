@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coverpage"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+    android:id="@+id/appLogo"
+    android:layout_width="300dp"
+    android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        />
+
+    <!--<TextView
+        android:id="@+id/apphome"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="96dp"
+        android:text="E-Paradise for Readers."
+        android:textAlignment="center"
+        android:textColor="#FFFFF0"
+        android:shadowColor="#612721"
+        android:textSize="22sp"
+        android:textStyle="bold" />-->
+
+    <Button
+        android:id="@+id/btnhome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"
+        android:text="Get your Ebooks Now"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#612721"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+</RelativeLayout>
