@@ -1,13 +1,13 @@
-#Individual Project - E-Bookstore 
+#Android Bookstore
 
+It is a sample ecommerce bookstore application built using Android Studio
 
-Name : Ancient BookE
 Pages : 
 	1.Cover page
 	
 	2.Home Page ( header, clickable next page and about us page button)
 	
-	3.Category Page (displaying 6 different types of category to choose from , currently the functionality is not working but i intend 		to make improvements in future. Although all the icons are clickable and redirects to next page)
+	3.Category Page (displaying 6 different types of category to choose from, all the icons are clickable and redirects to next page)
 	
 	4.ListView Page ( recycler view displaying array list of books with clickable image, name and author).
 	
@@ -18,3 +18,5 @@ Pages :
 	7.Payment Page (Taking user input in terms of card details)
 	
 	8.About us page (brief about bookstore agenda and clickable next button).
+
+Tools : Android Studio, Figma, Firebase, Intent
