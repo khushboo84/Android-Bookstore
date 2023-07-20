@@ -18,5 +18,3 @@ Pages :
 	7.Payment Page (Taking user input in terms of card details)
 	
 	8.About us page (brief about bookstore agenda and clickable next button).
-
-Extra : I tried using firebase but got way too many errors and after two days of error solving i decided to do work manually.
